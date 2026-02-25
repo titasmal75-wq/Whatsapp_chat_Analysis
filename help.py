@@ -20,7 +20,7 @@ def fetch_stats(selected_name , df):
 
 
         # fetch number of media
-    num_media = df[df['message'] == '<Media omitted>/n'].shape[0]
+    num_media = df[df['message'] == '<Media omitted>\n'].shape[0]
 
         # fetch number of linked 
     
